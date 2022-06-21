@@ -1,0 +1,115 @@
+{% include "parts/header.html" %}
+
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+   
+    <!-- Main content -->
+    <section class="content">
+     
+      <div class="card">
+              
+              <div class="card-body">
+               <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="/static/dashboard/dist/img/anas.jpg" alt="anas" style="width:25% ">
+  <h1>ANAS SALEH</h1>
+  <p class="title">CEO & Founder of IM IN DANGER</p>
+  <p>MODERN ACADEMY</p>
+  <a href="https://www.instagram.com/ans.saleh.96/"><i class="fa fa-instagram"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="https://www.facebook.com/ans.saleh.96"><i class="fa fa-facebook"></i></a>
+  <p><button>Contact</button></p>
+</div>
+              </div>
+    </section>
+  
+  </div>
+  <!-- /.content-wrapper -->
+   
+
+   <!-- Control Sidebar -->
+   <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="/static/dashboard/plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="/static/dashboard/plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="/static/dashboard/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="/static/dashboard/plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="/static/dashboard/plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="/static/dashboard/plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="/static/dashboard/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="/static/dashboard/plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="/static/dashboard/plugins/moment/moment.min.js"></script>
+<script src="/static/dashboard/plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="/static/dashboard/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="/static/dashboard/plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="/static/dashboard/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="/static/dashboard/dist/js/adminlte.js"></script>
+
+<!-- jQuery Mapael -->
+<script src="/static/dashboard/plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+<script src="/static/dashboard/plugins/raphael/raphael.min.js"></script>
+<script src="/static/dashboard/plugins/jquery-mapael/jquery.mapael.min.js"></script>
+<script src="/static/dashboard/plugins/jquery-mapael/maps/usa_states.min.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="/static/dashboard/dist/js/pages/dashboard.js"></script>
+<script src="/static/dashboard/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="/static/dashboard/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="/static/dashboard/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+<script src="/static/dashboard/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+<script src="/static/dashboard/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+<script src="/static/dashboard/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+<script src="/static/dashboard/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+<script src="/static/dashboard/plugins/jszip/jszip.min.js"></script>
+<script src="/static/dashboard/plugins/pdfmake/pdfmake.min.js"></script>
+<script src="/static/dashboard/plugins/pdfmake/vfs_fonts.js"></script>
+<script src="/static/dashboard/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+<script src="/static/dashboard/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+<script src="/static/dashboard/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="/static/dashboard/dist/js/demo.js"></script>
+<script>
+  $('#world-map-markers').mapael({
+    map: {
+      name: 'usa_states',
+      zoom: {
+        enabled: true,
+        maxLevel: 10
+      }
+    }
+  })
+</script>
+<script>
+  $(function () {
+    $("#example1").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+  });
+</script>
+</body>
+</html>
